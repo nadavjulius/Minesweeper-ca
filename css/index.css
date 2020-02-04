@@ -1,0 +1,142 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+}
+
+h1 span{
+    font-style: italic;
+    font-size: small;
+}
+
+.board-container{
+    margin: 12px;
+    min-width: 500px;
+}
+
+td {
+    text-align: center;
+    font-size: 1.5em;
+    background-color: grey;
+    height: 35px;
+    width: 35px;
+}
+
+img{
+    height: 23px;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+  }
+
+.difficulty{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    padding: 12px 23px;
+}
+
+.reset{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 10px;
+}
+
+.hint{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 10px;
+}
+
+.difficulty:hover{
+    cursor: pointer;
+}
+
+.highscores{
+    text-align: center;
+    font-weight: lighter;
+    margin: 5px;
+}
+
+.hint:hover{
+    cursor: help;
+
+}
+
+.reset:hover{
+    cursor: pointer;
+}
+
+.cell:hover{
+      cursor: pointer;
+  }
+
+.hide {
+      font-size: 0;
+      background-color: lightgrey;
+  }
+
+.flag{
+      background-color: red;
+  }
+
+.safe{
+    transition: 1.5s;
+    background-color: yellow;
+}
+
+.stopwatch {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .stopwatchtxt {
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .hintstxt{
+    font-size: 15px;
+    font-style: monospace;
+    font-weight: bold;
+    text-align: right;
+
+  }
+
+.lives{
+    font-size: 17px;
+    text-align: left;
+}
+
+.livestxt{
+    font-size: 10px;
+    font-family: monospace;
+}
+
+
+.darkmode{
+    font-size: 17px;
+    float: right;
+    /* text-align: right; */
+    
+}
+
+.darkmode:hover{
+cursor: pointer;
+}
+
+.bottomstuff{
+    max-width: 470px;
+}
+
+.flagsleft{
+    float: left;
+}
+

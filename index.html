@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minesweeper | by BlackCoffeeProductions</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body onload="init()">
+    <div class="content">
+
+
+        <header>
+            <h1>Minesweeper <span><img src="img/coffee.png" />© by BlackCoffeeProductions</span></h1>
+        </header>
+
+        <div>
+            <div class="stopwatchtxt">score</div>
+            <div class="stopwatch"></div>
+            <div class="hintstxt"> <span class="flagsleft"> </span>hints left</div>
+        </div>
+
+        <div>
+            <span class="reset" onclick="reset(this)">😊</span>
+            <button class="difficulty" onclick="easy(this)">Easy</button>
+            <button class="difficulty" onclick="medium(this)">Less Easy</button>
+            <button class="difficulty" onclick="hard(this)">Least Easy</button>
+            <span class="hint" onclick="hint(this)">3️⃣</span>
+        </div>
+
+        <div class="board-container"></div>
+        <div class="bottomstuff">
+            <span class="lives">
+                <span class="lives2">💊</span>
+                <span class="lives1">💊</span>
+                <span class="lives0">💊</span>
+                <span class="livestxt">revive pills left</span>
+            </span>
+            <span class="darkmode" onclick="darkmode(this)">🌖</span>
+        </div>
+    </div>
+
+    <div class="highscores">
+        <span class="ehighscore">Easy Hard Score</span>
+    </div>
+    <div class="highscores">
+        <span class="mhighscore">Less Easy Hard Score</span>
+    </div>
+    <div class="highscores">
+        <span class="hhighscore">Least Easy Hard Score</span>
+    </div>
+    <script src="js/timer.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
